@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backgroundchongtrom" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ImgCanhbao"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/canhbaotromdotnhap" />
+
+        <TextView
+            android:id="@+id/textCanhbao"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="50dp"
+            android:text="Cảnh báo !!!"
+            android:textColor="#FF9800"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnbathethong"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#FF9800"
+            android:text="Bật hệ thống" />
+
+        <Button
+            android:id="@+id/btntathethong"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#FFC107"
+            android:text="Tắt hệ thống" />
+
+        <Button
+            android:id="@+id/btnTatcoi"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#EAC185"
+            android:text="Tắt còi" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/white"
+            android:text="Trở về" />
+    </LinearLayout>
+</RelativeLayout>
